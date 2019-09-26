@@ -1,0 +1,40 @@
+html {
+    font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.home-header {
+    padding: auto;
+}
+
+.navbar {
+    color: black;
+    background-color: black;
+}
+
+#profile-photo {
+    border-radius: 50%;
+    width: 30%;
+    height: 30%;
+}
+
+.home {
+    padding-top: 100px;
+    height: 100vh;
+}
+
+.aboutme {
+    padding-top: 100px;
+    height: 100vh;
+}
+
+.projects {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: 100vh;
+}
+
+
+.card-deck {
+    bottom-margin: 5px;
+}
