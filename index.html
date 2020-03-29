@@ -37,12 +37,13 @@
 	<link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="/script.js"></script>
 </head>
 
 <body>
 	<div class="container">
 		<nav
-			class="navbar navbar-expand-lg navbar-light bg-light sticky-top fixed-top shadow-lg p-3 mb-5 bg-white rounded">
+			class="navbar navbar-expand-lg navbar-light bg-light sticky-top fixed-top shadow-lg p-3 mb-5 bg-white rounded alert">
 			<a class="navbar-brand btn" title="Prathamesh More's Portfolio" href="#home">
 				<ion-icon name="code"></ion-icon> Prathamesh More
 			</a>
@@ -90,7 +91,7 @@
 		</div>
 		<div id="aboutme" class="aboutme">
 			<center>
-				<div class="card shadow-lg p-3 mb-5 bg-white rounded">
+				<div class="card shadow-lg p-3 mb-5 bg-white rounded alert">
 					<p class="display-5">It's Prathamesh More, currently intern at <a
 							href="https://illumnus.com/">Illumnus</a> as Backend Developer. I’m eager to learn,
 						proactive, meticulous and I love nothing more than
@@ -107,12 +108,11 @@
 		</div>
 
 	</div>
-	<div id="projects" class="projects">
-		<div class="container">
+	<div id="projects" class="projects container">
+		<div class="container ">
 			<div class="row">
 				<div class="card-deck container">
-
-					<div class="card mb-3 col-md-6  col-lg-4 col-sm-12 shadow-lg p-3 mb-5 bg-white rounded"
+					<div class="card mb-3 col-md-6  col-lg-4 col-sm-12 shadow-lg p-3 mb-5 bg-white rounded alert"
 						title="Teeny">
 						<div class="card-body container">
 							<h5 class="card-title">Teeny</h5>
@@ -123,7 +123,7 @@
 						</div>
 					</div>
 
-					<div class="card col-md-4 col-sm-6 col-xs-12 col-lg-4 shadow-lg p-3 mb-5 bg-white rounded"
+					<div class="card col-md-4 col-sm-6 col-xs-12 col-lg-4 shadow-lg p-3 mb-5 bg-white rounded alert"
 						title="Toasty - Android Library">
 						<div class="card-body">
 							<h5 class="card-title">Toasty - Android Library</h5>
@@ -135,7 +135,7 @@
 						</div>
 					</div>
 
-					<div class="card col-sm-6 col-xs-12 col-lg-4   shadow-lg p-3 mb-5 bg-white rounded"
+					<div class="card col-sm-6 col-xs-12 col-lg-4 shadow-lg p-3 mb-5 bg-white rounded alert alert-primary alert"
 						title="Achieve - Chrome Extension">
 						<div class="card-body container">
 							<h5 class="card-title">Achieve - Chrome Extension</h5>
@@ -153,7 +153,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="card-deck container">
-					<div class="card col-md-6 col-md-6  col-lg-4 col-sm-12 shadow-lg p-3 mb-5 bg-white rounded">
+					<div class="card col-md-6 col-md-6  col-lg-4 col-sm-12 shadow-lg p-3 mb-5 bg-white rounded alert">
 						<div class="card-body container">
 							<h5 class="card-title">Quote Garden</h5>
 							<p class="card-text">A REST API for quotes.
@@ -167,7 +167,7 @@
 
 						</div>
 					</div>
-					<div class="card mb-3 col-md-6  col-lg-4 col-sm-12 shadow-lg p-3 mb-5 bg-white rounded"
+					<div class="card mb-3 col-md-6  col-lg-4 col-sm-12 shadow-lg p-3 mb-5 bg-white rounded alert"
 						title="Zeal Math Olympiad - Android App">
 						<div class="card-body container">
 							<h5 class="card-title">Zeal Math Olympiad - Android App</h5>
@@ -179,7 +179,7 @@
 						</div>
 					</div>
 
-					<div class="card col-md-4 col-sm-6 col-xs-12 col-lg-4  shadow-lg p-3 mb-5 bg-white rounded"
+					<div class="card col-md-4 col-sm-6 col-xs-12 col-lg-4  shadow-lg p-3 mb-5 bg-white rounded alert"
 						title="Daily Notes">
 						<div class="card-body container">
 							<h5 class="card-title">Daily Notes</h5>
@@ -194,11 +194,15 @@
 			<a href="http://github.com/pprathameshmore" class="btn btn-outline-primary">See all projects on GitHub</a>
 		</div>
 	</div>
+	<div class="container">
+		<center>
+			<div class="card shadow-lg p-3 mb-5 bg-white rounded alert alert-primary">
+				<p class="display-5" id="quote"></p>
+		</center>
 	</div>
-	</div>
-	</div>
-	<footer class="footer container" id="footer">
-		<div class="card container  shadow-lg p-3 mb-5 bg-white rounded ">
+
+	<footer class="footer container alert" id="footer">
+		<div class="card container  shadow-lg p-3 mb-5 bg-white rounded  alert">
 			<div class="text-center">
 				<a href="https://github.com/pprathameshmore" title="GitHub">
 					<ion-icon size="large" name="logo-github"></ion-icon>
@@ -229,15 +233,14 @@
 					<p>Made with <span style="font-size:120%; color:red;">&hearts;</span> by Prathamesh More hosted on
 						GitHub
 					</p>
-					<p class="text-muted">Note: This is original template</p>
+					<p class="text-muted">Note: This is original template developed by me.</p>
 				</div>
 			</div>
 
 		</div>
 	</footer>
 </body>
-<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-</script>
+<script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
 	integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
 </script>
