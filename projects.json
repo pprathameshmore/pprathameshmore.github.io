@@ -1,4 +1,4 @@
-projects: [{
+[{
                 projectTitle: 'Title',
                 projectDescription: 'Desc',
                 projectTech: 'Tec',
