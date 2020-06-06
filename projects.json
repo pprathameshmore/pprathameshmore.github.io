@@ -1,0 +1,13 @@
+projects: [{
+                projectTitle: 'Title',
+                projectDescription: 'Desc',
+                projectTech: 'Tec',
+                projectLearnMoreLink: 'https://getbootstrap.com/docs/4.0/components/carousel/',
+                projectGoLink: 'https://getbootstrap.com/docs/4.0/components/carousel/'
+            }, {
+                projectTitle: 'Title',
+                projectDescription: 'Desc',
+                projectTech: 'Tec',
+                projectLearnMoreLink: 'https://getbootstrap.com/docs/4.0/components/carousel/',
+                projectGoLink: 'https://getbootstrap.com/docs/4.0/components/carousel/'
+            }]
