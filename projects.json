@@ -3,35 +3,13 @@
                 "projectDescription": "Desc",
                 "projectTech": "Tec",
                 "projectLearnMoreLink": "https://getbootstrap.com/docs/4.0/components/carousel/",
-                "projectGoLink": "https://getbootstrap.com/docs/4.0/components/carousel/"
-            }, {
-                "projectTitle": "Title",
-                "projectDescription": "Desc",
-                "projectTech": "Tec",
-                "projectLearnMoreLink": "https://getbootstrap.com/docs/4.0/components/carousel/",
-                "projectGoLink": "https://getbootstrap.com/docs/4.0/components/carousel/"
+                "projectGoLink": "https://getbootstrap.com/docs/4.0/components/carousel/",
+                "projectScreenshots" : ["https://i.ibb.co/vQQx9K7/tuition-1.jpg","https://i.ibb.co/zRqxFHH/tuition-2.jpg", "https://i.ibb.co/G7MDjHg/tuition-3.jpg","https://i.ibb.co/RP4HTPS/tuition-4.jpg"]
             },{
                 "projectTitle": "Title",
                 "projectDescription": "Desc",
                 "projectTech": "Tec",
                 "projectLearnMoreLink": "https://getbootstrap.com/docs/4.0/components/carousel/",
-                "projectGoLink": "https://getbootstrap.com/docs/4.0/components/carousel/"
-            }, {
-                "projectTitle": "Title",
-                "projectDescription": "Desc",
-                "projectTech": "Tec",
-                "projectLearnMoreLink": "https://getbootstrap.com/docs/4.0/components/carousel/",
-                "projectGoLink": "https://getbootstrap.com/docs/4.0/components/carousel/"
-            },{
-                "projectTitle": "Title",
-                "projectDescription": "Desc",
-                "projectTech": "Tec",
-                "projectLearnMoreLink": "https://getbootstrap.com/docs/4.0/components/carousel/",
-                "projectGoLink": "https://getbootstrap.com/docs/4.0/components/carousel/"
-            }, {
-                "projectTitle": "Title",
-                "projectDescription": "Desc",
-                "projectTech": "Tec",
-                "projectLearnMoreLink": "https://getbootstrap.com/docs/4.0/components/carousel/",
-                "projectGoLink": "https://getbootstrap.com/docs/4.0/components/carousel/"
+                "projectGoLink": "https://getbootstrap.com/docs/4.0/components/carousel/",
+                "projectScreenshots" : ["https://i.ibb.co/vQQx9K7/tuition-1.jpg","https://i.ibb.co/zRqxFHH/tuition-2.jpg", "https://i.ibb.co/G7MDjHg/tuition-3.jpg","https://i.ibb.co/RP4HTPS/tuition-4.jpg"]
             }]
