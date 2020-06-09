@@ -14,7 +14,7 @@
     "projectTech": "This project build with Node.js, MongoDB, Bootstrap 4 and SendGrid.",
     "projectLearnMoreLink": "https://play.google.com/store/apps/details?id=com.prathameshmore.teeny",
     "projectGoLink": "http://tny.fail/teeny",
-    "projectScreenshots": ["https://i.ibb.co/3r6mRcG/home-teeny.png", "https://i.ibb.co/MGdkWhw/create.png", "https://i.ibb.co/LCSxdPT/setting.png"],
+    "projectScreenshots": ["https://i.ibb.co/wsgPPGC/home-teeny.png", "https://i.ibb.co/dDjTx7v/create.png", "https://i.ibb.co/P5xsznb/setting.png"],
     "skillIcons": ["https://i.ibb.co/9yPVpWK/nodejs.png", "https://i.ibb.co/YtGD8Qz/express.jpg", "https://i.ibb.co/HD43JQG/mongodb.png",
         "https://i.ibb.co/h1v75cp/ejs.png", "https://i.ibb.co/0Cv925Z/heroku.png"
     ]
@@ -34,6 +34,6 @@
     "projectTech": "Build a library on top of the existing Toast class provided by the Android System.",
     "projectLearnMoreLink": "https://github.com/pprathameshmore/Toasty",
     "projectGoLink": "https://play.google.com/store/apps/details?id=com.prathameshmore.toasty",
-    "projectScreenshots": ["https://ibb.co/mhvdBC8"],
+    "projectScreenshots": ["https://raw.githubusercontent.com/pprathameshmore/Toasty/master/assets/screenshots/device-2019-07-11-171926.png"],
     "skillIcons": ["https://i.ibb.co/C9vFph9/java.png"]
 }]
