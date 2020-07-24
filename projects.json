@@ -1,39 +1,51 @@
 [{
-    "projectTitle": "Tuition Management and Exam Portal",
-    "projectDescription": "A web app developed for local tuition classes, these small classes can move from paper-based management to digital-based management of student’s admission. Ensured the most important security features, encrypted sensitive data using a 32-bit symmetric key, added protection against the CSRF attack. Integrated Rest API based fully featured MCQ based exam portal, so students can prepare for the exams during corona-lockdown.",
-    "projectTech": "This project build with Node.js, MongoDB, and Bootstrap 4. The exam section consumes RESTful API. Node.js server is hosted on Heroku, handling requests. Node.js, Express.js, MongoDB and Bootstrap 4.",
-    "projectLearnMoreLink": "https://github.com/pprathameshmore/tuition-management-freelance-project",
-    "projectGoLink": "http://tny.fail/spark",
-    "projectScreenshots": ["https://i.ibb.co/vQQx9K7/tuition-1.jpg", "https://i.ibb.co/zRqxFHH/tuition-2.jpg", "https://i.ibb.co/G7MDjHg/tuition-3.jpg", "https://i.ibb.co/RP4HTPS/tuition-4.jpg"],
-    "skillIcons": ["https://i.ibb.co/9yPVpWK/nodejs.png", "https://i.ibb.co/YtGD8Qz/express.jpg", "https://i.ibb.co/HD43JQG/mongodb.png",
-        "https://i.ibb.co/h1v75cp/ejs.png", "https://i.ibb.co/0Cv925Z/heroku.png"
-    ]
-}, {
-    "projectTitle": "Teeny - Powerful, link management platform",
-    "projectDescription": "A simple web app built to create and manage a short URL for free. Users can sign up for free, create short URLs from long URLs, see user click counts on links. Clean and mobile-friendly UI",
-    "projectTech": "This project build with Node.js, MongoDB, Bootstrap 4 and SendGrid.",
-    "projectLearnMoreLink": "https://play.google.com/store/apps/details?id=com.prathameshmore.teeny",
-    "projectGoLink": "http://tny.fail/teeny",
-    "projectScreenshots": ["https://i.ibb.co/wsgPPGC/home-teeny.png", "https://i.ibb.co/dDjTx7v/create.png", "https://i.ibb.co/P5xsznb/setting.png"],
-    "skillIcons": ["https://i.ibb.co/9yPVpWK/nodejs.png", "https://i.ibb.co/YtGD8Qz/express.jpg", "https://i.ibb.co/HD43JQG/mongodb.png",
-        "https://i.ibb.co/h1v75cp/ejs.png", "https://i.ibb.co/0Cv925Z/heroku.png"
-    ]
-}, {
-    "projectTitle": "Sadhryac To-Do App",
-    "projectDescription": "Participated in Stackhack-V1 Online Hackathon on Hackerearth.com. Implemented features like set labels, set progress, search, and filter based on priority, label, etc. Added Sign up and Sign in functionality. Easy interface using Material UI.",
-    "projectTech": "This project build with Node.js, Express.js, MongoDB and React.js.",
-    "projectLearnMoreLink": "http://github.com/pprathameshmore/stackhack-hackathon-backend/",
-    "projectGoLink": "https://todo-p3tfa7gxn.now.sh/",
-    "projectScreenshots": ["https://i.ibb.co/3mQrzGp/s1.png", "https://i.ibb.co/CMtDPbM/s2.png"],
-    "skillIcons": ["https://i.ibb.co/9yPVpWK/nodejs.png", "https://i.ibb.co/YtGD8Qz/express.jpg", "https://i.ibb.co/HD43JQG/mongodb.png",
-        "https://i.ibb.co/3yv4cVL/react.png", "https://i.ibb.co/0Cv925Z/heroku.png"
-    ]
-}, {
-    "projectTitle": "Toasty Android Library",
-    "projectDescription": "Lightweight Android library for a new way to create toasts in Android, similar to Bootstrap alerts. Open source and more than 70 monthly downloads on JitPack.",
-    "projectTech": "Build a library on top of the existing Toast class provided by the Android System.",
-    "projectLearnMoreLink": "https://github.com/pprathameshmore/Toasty",
-    "projectGoLink": "https://play.google.com/store/apps/details?id=com.prathameshmore.toasty",
-    "projectScreenshots": ["https://raw.githubusercontent.com/pprathameshmore/Toasty/master/assets/screenshots/device-2019-07-11-171926.png"],
-    "skillIcons": ["https://i.ibb.co/C9vFph9/java.png"]
-}]
+        "projectTitle": "FShare - Share files up to 1.5 GB securely, easily",
+        "projectDescription": "A file-sharing service that allows users to safely and simply share files. Users can upload up to 1.5GB file. Users have options like setting download limit, password, or days to expire files. Users can easily share short URLs.Files are encrypted and stored in Microsoft Azure Blob Storage.Never let your files stay on the Internet again.",
+        "projectTech": "This project build with Node.js, Express.js, PostgreSQL, MongoDB, Redis, Docker, OAuth2, Microsoft Azure, React.js and Bootstrap 4. I build this a project that will help me to understand Microservices practically. although In this project I am not implemented Gateway or Service Registry. I separated each service of the app into individual services like Authentication, File Handling, Short URL services, etc.",
+        "projectLearnMoreLink": "https://github.com/pprathameshmore/fshare",
+        "projectGoLink": "https://fshare.netlify.app",
+        "projectScreenshots": ["https://i.ibb.co/GkHJ3dQ/login.png", "https://i.ibb.co/GkHJ3dQ/home.png", "https://i.ibb.co/gdZSJmV/upload.png", "https://i.ibb.co/6YJ1HsH/downlaod-no.png"],
+        "skillIcons": ["https://i.ibb.co/9yPVpWK/nodejs.png", "https://i.ibb.co/YtGD8Qz/express.jpg", "https://i.ibb.co/HD43JQG/mongodb.png",
+            "https://i.ibb.co/h1v75cp/react.png"
+        ]
+    },
+    {
+        "projectTitle": "Tuition Management and Exam Portal",
+        "projectDescription": "A web app developed for local tuition classes, these small classes can move from paper-based management to digital-based management of student’s admission. Ensured the most important security features, encrypted sensitive data using a 32-bit symmetric key, added protection against the CSRF attack. Integrated Rest API based fully featured MCQ based exam portal, so students can prepare for the exams during corona-lockdown.",
+        "projectTech": "This project build with Node.js, MongoDB, and Bootstrap 4. The exam section consumes RESTful API. Node.js server is hosted on Heroku, handling requests. Node.js, Express.js, MongoDB and Bootstrap 4.",
+        "projectLearnMoreLink": "https://github.com/pprathameshmore/tuition-management-freelance-project",
+        "projectGoLink": "http://tny.fail/spark",
+        "projectScreenshots": ["https://i.ibb.co/vQQx9K7/tuition-1.jpg", "https://i.ibb.co/zRqxFHH/tuition-2.jpg", "https://i.ibb.co/G7MDjHg/tuition-3.jpg", "https://i.ibb.co/RP4HTPS/tuition-4.jpg"],
+        "skillIcons": ["https://i.ibb.co/9yPVpWK/nodejs.png", "https://i.ibb.co/YtGD8Qz/express.jpg", "https://i.ibb.co/HD43JQG/mongodb.png",
+            "https://i.ibb.co/h1v75cp/ejs.png", "https://i.ibb.co/0Cv925Z/heroku.png"
+        ]
+    }, {
+        "projectTitle": "Teeny - Powerful, link management platform",
+        "projectDescription": "A simple web app built to create and manage a short URL for free. Users can sign up for free, create short URLs from long URLs, see user click counts on links. Clean and mobile-friendly UI",
+        "projectTech": "This project build with Node.js, MongoDB, Bootstrap 4 and SendGrid.",
+        "projectLearnMoreLink": "https://play.google.com/store/apps/details?id=com.prathameshmore.teeny",
+        "projectGoLink": "http://tny.fail/teeny",
+        "projectScreenshots": ["https://i.ibb.co/wsgPPGC/home-teeny.png", "https://i.ibb.co/dDjTx7v/create.png", "https://i.ibb.co/P5xsznb/setting.png"],
+        "skillIcons": ["https://i.ibb.co/9yPVpWK/nodejs.png", "https://i.ibb.co/YtGD8Qz/express.jpg", "https://i.ibb.co/HD43JQG/mongodb.png",
+            "https://i.ibb.co/h1v75cp/ejs.png", "https://i.ibb.co/0Cv925Z/heroku.png"
+        ]
+    }, {
+        "projectTitle": "Sadhryac To-Do App",
+        "projectDescription": "Participated in Stackhack-V1 Online Hackathon on Hackerearth.com. Implemented features like set labels, set progress, search, and filter based on priority, label, etc. Added Sign up and Sign in functionality. Easy interface using Material UI.",
+        "projectTech": "This project build with Node.js, Express.js, MongoDB and React.js.",
+        "projectLearnMoreLink": "http://github.com/pprathameshmore/stackhack-hackathon-backend/",
+        "projectGoLink": "https://todo-p3tfa7gxn.now.sh/",
+        "projectScreenshots": ["https://i.ibb.co/3mQrzGp/s1.png", "https://i.ibb.co/CMtDPbM/s2.png"],
+        "skillIcons": ["https://i.ibb.co/9yPVpWK/nodejs.png", "https://i.ibb.co/YtGD8Qz/express.jpg", "https://i.ibb.co/HD43JQG/mongodb.png",
+            "https://i.ibb.co/3yv4cVL/react.png", "https://i.ibb.co/0Cv925Z/heroku.png"
+        ]
+    }, {
+        "projectTitle": "Toasty Android Library",
+        "projectDescription": "Lightweight Android library for a new way to create toasts in Android, similar to Bootstrap alerts. Open source and more than 70 monthly downloads on JitPack.",
+        "projectTech": "Build a library on top of the existing Toast class provided by the Android System.",
+        "projectLearnMoreLink": "https://github.com/pprathameshmore/Toasty",
+        "projectGoLink": "https://play.google.com/store/apps/details?id=com.prathameshmore.toasty",
+        "projectScreenshots": ["https://raw.githubusercontent.com/pprathameshmore/Toasty/master/assets/screenshots/device-2019-07-11-171926.png"],
+        "skillIcons": ["https://i.ibb.co/C9vFph9/java.png"]
+    }
+]
