@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: pprathameshmore.github.io
+Token: 0363658bb013b5f32e989f66e2f2bdbbf078df1da77c5a02e7e114c51b80abe8
