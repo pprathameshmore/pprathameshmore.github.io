@@ -40,12 +40,21 @@
             "https://i.ibb.co/3yv4cVL/react.png", "https://i.ibb.co/0Cv925Z/heroku.png"
         ]
     }, {
-        "projectTitle": "Toasty Android Library",
-        "projectDescription": "Lightweight Android library for a new way to create toasts in Android, similar to Bootstrap alerts. Open source and more than 70 monthly downloads on JitPack.",
+        "projectTitle": "MarathiVivah — Marathi Matrimony Platform",
+        "projectDescription": "Full-stack matrimony platform for the Marathi community, kundli/horoscope compatibility, and a free biodata-maker tool used by 500 users.",
         "projectTech": "Build a library on top of the existing Toast class provided by the Android System.",
-        "projectLearnMoreLink": "https://github.com/pprathameshmore/Toasty",
-        "projectGoLink": "https://play.google.com/store/apps/details?id=com.prathameshmore.toasty",
-        "projectScreenshots": ["https://raw.githubusercontent.com/pprathameshmore/Toasty/master/assets/screenshots/device-2019-07-11-171926.png"],
-        "skillIcons": ["https://i.ibb.co/C9vFph9/java.png"]
-    }
+        "projectLearnMoreLink": "https://www.marathivivah.co.in",
+        "projectGoLink": "https://www.marathivivah.co.in",
+        "projectScreenshots": [],
+        "skillIcons": []
+    },
+        {
+                 "projectTitle": "MarathiVivah — free biodata maker",
+        "projectDescription": "A free, no-login web tool that lets users create a traditional Marathi marriage biodata (लग्नाचा बायोडाटा) and download it as a polished PDF in minutes. Built as a lead-generation product within the MarathiVivah matrimony platform.",
+        "projectTech": " (7 standard + 4 premium), covering the visual styles Maharashtrian families actually use for biodata — from classic black-and-white to ornate gold/peacock-motif designs.",
+        "projectLearnMoreLink": "https://www.marathivivah.co.in/free-marathi-biodata-maker",
+        "projectGoLink": "https://www.marathivivah.co.in/free-marathi-biodata-maker",
+        "projectScreenshots": [],
+        "skillIcons": []
+        }
 ]
