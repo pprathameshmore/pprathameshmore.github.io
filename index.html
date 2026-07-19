@@ -1,25 +1,354 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta
-      http-equiv="refresh"
-      content="0;url=https://pprathameshmore.github.io/portfolio/"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Prathamesh More | Portfolio | Projects | Resume | Work</title>
     <meta
-      name="Prathamesh More | Portfolio | Projects | Resume"
-      content="My name is Prathamesh More and I am an Indian computer engineering undergraduate and agile full-stack web developer who loves nothing more than working with people, building amazing software, and solving technical problems. During my years of engineering course, I have grown a strong passion for backend development and mobile app development, which led me to a good understanding of its underlying technologies, which leads me to love designing and building modern websites, applications, and APIs."
+      name="description"
+      content="Prathamesh More is an Indian full-stack web developer specializing in Node.js, Express.js, React and MongoDB. Portfolio of projects including FShare, Teeny link management, and MarathiVivah — a Marathi matrimony platform with a free biodata maker."
     />
     <meta
       name="keywords"
-      content="Prathamesh More, PrathameshMore, Prathamesh, Resume, Prathamesh More Pune, Prathamesh More Jaysingpur, Prathamesh More Backend Developer, Prathamesh More Sangeet, Prathamesh More Saxophone, Prathamesh More Zee Yuva Sangeet Samrat 2nd Runner Up. Saxophonist and Music Composer."
+      content="Prathamesh More, PrathameshMore, Prathamesh, Resume, Prathamesh More Pune, Prathamesh More Jaysingpur, Prathamesh More Backend Developer, Prathamesh More Sangeet, Prathamesh More Saxophone, Prathamesh More Zee Yuva Sangeet Samrat 2nd Runner Up, MarathiVivah, Marathi Matrimony, Marathi Biodata Maker"
     />
     <meta name="author" content="Prathamesh More" />
-    <title>Prathamesh More | Portfolio | Projects | Resume | Work</title>
-    <script src="/script.js"></script>
+    <link rel="canonical" href="https://pprathameshmore.github.io/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Prathamesh More | Portfolio | Projects | Resume | Work" />
+    <meta
+      property="og:description"
+      content="Full-stack web developer portfolio — Node.js, Express.js, React, MongoDB. Featured project: MarathiVivah, a Marathi matrimony platform with a free biodata maker."
+    />
+    <meta property="og:url" content="https://pprathameshmore.github.io/" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Prathamesh More | Portfolio | Projects | Resume | Work" />
+    <meta
+      name="twitter:description"
+      content="Full-stack web developer portfolio — Node.js, Express.js, React, MongoDB."
+    />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Prathamesh More",
+        "url": "https://pprathameshmore.github.io/",
+        "jobTitle": "Full-Stack Web Developer",
+        "description": "Indian computer engineering undergraduate and agile full-stack web developer specializing in backend and mobile app development.",
+        "sameAs": [
+          "https://github.com/pprathameshmore"
+        ]
+      }
+    </script>
+
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #ffffff;
+        --fg: #1a1a1a;
+        --muted: #5a5a5a;
+        --card-bg: #f6f6f7;
+        --border: #e2e2e4;
+        --accent: #2b5fd9;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #14151a;
+          --fg: #f2f2f3;
+          --muted: #a8a8ad;
+          --card-bg: #1d1e24;
+          --border: #2c2d34;
+          --accent: #6f9bff;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        background: var(--bg);
+        color: var(--fg);
+        line-height: 1.6;
+      }
+      a {
+        color: var(--accent);
+      }
+      header,
+      main,
+      footer {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 2rem 1.25rem;
+      }
+      header h1 {
+        margin-bottom: 0.25rem;
+        font-size: 2rem;
+      }
+      header p.tagline {
+        color: var(--muted);
+        margin-top: 0;
+      }
+      section {
+        margin: 2.5rem 0;
+      }
+      section h2 {
+        font-size: 1.4rem;
+        border-bottom: 1px solid var(--border);
+        padding-bottom: 0.5rem;
+      }
+      .project {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        padding: 1.25rem 1.5rem;
+        margin-bottom: 1.25rem;
+      }
+      .project.featured {
+        border-color: var(--accent);
+      }
+      .project h3 {
+        margin-top: 0;
+        margin-bottom: 0.4rem;
+      }
+      .project h3 a {
+        text-decoration: none;
+      }
+      .project h3 a:hover {
+        text-decoration: underline;
+      }
+      .project p {
+        margin: 0.5rem 0;
+      }
+      .project .tech {
+        color: var(--muted);
+        font-size: 0.92rem;
+      }
+      .project .links {
+        margin-top: 0.75rem;
+        font-size: 0.95rem;
+      }
+      .project .links a {
+        margin-right: 1rem;
+        font-weight: 600;
+      }
+      .project img {
+        max-width: 100%;
+        border-radius: 6px;
+        margin-top: 0.75rem;
+        display: block;
+      }
+      footer {
+        color: var(--muted);
+        border-top: 1px solid var(--border);
+        font-size: 0.9rem;
+      }
+      footer a {
+        color: var(--accent);
+      }
+    </style>
   </head>
   <body>
-    Redirecting...
+    <header>
+      <h1>Prathamesh More</h1>
+      <p class="tagline">Full-Stack Web Developer — Node.js, Express.js, React, MongoDB</p>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>About</h2>
+        <p>
+          I'm Prathamesh More, an Indian computer engineering undergraduate and agile
+          full-stack web developer who loves nothing more than working with people,
+          building amazing software, and solving technical problems. During my years of
+          engineering course, I have grown a strong passion for backend development and
+          mobile app development, which led me to a good understanding of its underlying
+          technologies, which leads me to love designing and building modern websites,
+          applications, and APIs.
+        </p>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+
+        <article class="project featured">
+          <h3>
+            <a href="https://www.marathivivah.co.in" target="_blank" rel="noopener">
+              MarathiVivah — Marathi Matrimony Platform
+            </a>
+          </h3>
+          <p>
+            Full-stack matrimony platform built for the Marathi community, featuring
+            kundli/horoscope compatibility matching and a free biodata-maker tool used
+            by 500+ users.
+          </p>
+          <div class="links">
+            <a href="https://www.marathivivah.co.in" target="_blank" rel="noopener">Visit MarathiVivah</a>
+          </div>
+        </article>
+
+        <article class="project featured">
+          <h3>
+            <a
+              href="https://www.marathivivah.co.in/free-marathi-biodata-maker"
+              target="_blank"
+              rel="noopener"
+            >
+              Free Marathi Biodata Maker
+            </a>
+          </h3>
+          <p>
+            A free, no-login web tool that lets users create a traditional Marathi
+            marriage biodata (लग्नाचा बायोडाटा) and download it as a polished PDF in
+            minutes — 7 standard and 4 premium templates covering the visual styles
+            Maharashtrian families actually use, from classic black-and-white to ornate
+            gold/peacock-motif designs. Built as a lead-generation product within the
+            MarathiVivah matrimony platform.
+          </p>
+          <div class="links">
+            <a
+              href="https://www.marathivivah.co.in/free-marathi-biodata-maker"
+              target="_blank"
+              rel="noopener"
+              >Try the Biodata Maker</a
+            >
+          </div>
+        </article>
+
+        <article class="project">
+          <h3>
+            <a href="https://fshare.netlify.app" target="_blank" rel="noopener"
+              >FShare — Share files up to 1.5 GB securely, easily</a
+            >
+          </h3>
+          <p>
+            A file-sharing service that allows users to safely and simply share files.
+            Users can upload up to 1.5GB per file, set a download limit, password, or
+            expiry date, and share short URLs. Files are encrypted and stored in
+            Microsoft Azure Blob Storage.
+          </p>
+          <p class="tech">
+            Built with Node.js, Express.js, PostgreSQL, MongoDB, Redis, Docker, OAuth2,
+            Microsoft Azure, React.js and Bootstrap 4 — a hands-on exercise in
+            microservices, with Authentication, File Handling and Short URL split into
+            individual services.
+          </p>
+          <img
+            src="https://i.ibb.co/GkHJ3dQ/login.png"
+            alt="FShare login screen"
+            loading="lazy"
+            width="640"
+            height="360"
+          />
+          <div class="links">
+            <a href="https://fshare.netlify.app" target="_blank" rel="noopener">Live Site</a>
+            <a href="https://github.com/pprathameshmore/fshare" target="_blank" rel="noopener"
+              >Source on GitHub</a
+            >
+          </div>
+        </article>
+
+        <article class="project">
+          <h3>
+            <a href="http://tny.fail/spark" target="_blank" rel="noopener"
+              >Tuition Management and Exam Portal</a
+            >
+          </h3>
+          <p>
+            A web app developed for local tuition classes to move from paper-based to
+            digital management of student admissions. Encrypted sensitive data with a
+            32-bit symmetric key, added CSRF protection, and integrated a REST API based
+            MCQ exam portal so students could prepare for exams during the
+            corona-lockdown.
+          </p>
+          <p class="tech">Built with Node.js, Express.js, MongoDB and Bootstrap 4, hosted on Heroku.</p>
+          <img
+            src="https://i.ibb.co/vQQx9K7/tuition-1.jpg"
+            alt="Tuition Management and Exam Portal screenshot"
+            loading="lazy"
+            width="640"
+            height="360"
+          />
+          <div class="links">
+            <a href="http://tny.fail/spark" target="_blank" rel="noopener">Live Site</a>
+            <a
+              href="https://github.com/pprathameshmore/tuition-management-freelance-project"
+              target="_blank"
+              rel="noopener"
+              >Source on GitHub</a
+            >
+          </div>
+        </article>
+
+        <article class="project">
+          <h3>
+            <a href="http://tny.fail/teeny" target="_blank" rel="noopener"
+              >Teeny — Powerful, link management platform</a
+            >
+          </h3>
+          <p>
+            A simple web app to create and manage short URLs for free. Users can sign
+            up, create short URLs from long URLs, and see click counts, in a clean,
+            mobile-friendly UI.
+          </p>
+          <p class="tech">Built with Node.js, MongoDB, Bootstrap 4 and SendGrid.</p>
+          <img
+            src="https://i.ibb.co/wsgPPGC/home-teeny.png"
+            alt="Teeny link management home screen"
+            loading="lazy"
+            width="640"
+            height="360"
+          />
+          <div class="links">
+            <a href="http://tny.fail/teeny" target="_blank" rel="noopener">Live Site</a>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.prathameshmore.teeny"
+              target="_blank"
+              rel="noopener"
+              >Google Play</a
+            >
+          </div>
+        </article>
+
+        <article class="project">
+          <h3>
+            <a href="https://todo-p3tfa7gxn.now.sh/" target="_blank" rel="noopener">Sadhryac To-Do App</a>
+          </h3>
+          <p>
+            Built for Stackhack-V1, an online hackathon on HackerEarth. Features labels,
+            progress tracking, search, and filtering by priority or label, with sign
+            up/sign in and an easy Material UI interface.
+          </p>
+          <p class="tech">Built with Node.js, Express.js, MongoDB and React.js.</p>
+          <img
+            src="https://i.ibb.co/3mQrzGp/s1.png"
+            alt="Sadhryac To-Do App screenshot"
+            loading="lazy"
+            width="640"
+            height="360"
+          />
+          <div class="links">
+            <a href="https://todo-p3tfa7gxn.now.sh/" target="_blank" rel="noopener">Live Site</a>
+            <a
+              href="http://github.com/pprathameshmore/stackhack-hackathon-backend/"
+              target="_blank"
+              rel="noopener"
+              >Source on GitHub</a
+            >
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        <a href="/data/resume/PrathameshMore_Deedy_CV.pdf" target="_blank" rel="noopener">Resume (PDF)</a>
+        · <a href="https://github.com/pprathameshmore" target="_blank" rel="noopener">GitHub</a>
+      </p>
+      <p>&copy; 2026 Prathamesh More</p>
+    </footer>
   </body>
 </html>
